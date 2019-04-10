@@ -1,0 +1,22 @@
+{
+  "name": "emqx-storm-docs",
+  "version": "1.0.0",
+  "description": "EMQ X Storm Docs",
+  "main": "index.js",
+  "author": "emqx team",
+  "license": "Apache 2.0",
+  "private": true,
+  "scripts": {
+    "docs": "gitbook install && gitbook serve",
+    "html": "gitbook install && gitbook build . _book && npm run clear",
+    "pdf": "gitbook install && gitbook pdf . _book.pdf",
+    "mkdir": "node ./_tools/generate_summary.js",
+    "lint": "node ./_tools/style_lint.js",
+    "clear": "node ./_tools/clear.js"
+  },
+  "dependencies": {
+    "gitbook-cli": "^2.3.2",
+    "pangu": "^3.3.0",
+    "glob": "^7.1.3"
+  }
+}
