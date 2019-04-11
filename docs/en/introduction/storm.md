@@ -1,21 +1,20 @@
-# 边缘计算管理平台 Storm
+# Edge Computing Management Platform- Storm
 
 
-## 简介
+## Introduction
 
-EMQ X Storm （以下简称 Storm 平台）是一个面向 EMQ X Edge 边缘消息服务器的管理平台，用于解决如下问题：
+EMQ X Storm (hereafter referred to as the Storm platform) is a management platform for EMQ X Edge  message server to solve the following problems:
 
-1. Edge 边缘消息服务器实际部署数量较多、位置分散且服务器所处空间环境相对复杂，难以开展运维管理工作如获取监控服务器状态与运行指标、变更相关功能配置、固件升级；
-2. 边缘节点上的设备接入、消息路由数据处理、数据透传等计算规则可能需要随着业务运营进行变更，需要一个规则管理与派发平台实现计算规则的编辑、版本控制、下发等操作。
+1. When a large number of  edge message servers are deployed with geographically dispersed location and a relatively complex space environment, It is difficult to perform operation and maintenance management tasks such as obtaining monitoring server status and running indicators, changing related function configurations, and firmware upgrades.
+2. When the calculation rules such as device access, message routing data processing and data transparent transmission on the edge node may need to be changed with the service operation, a rule management and distribution platform is required to implement the editing, version control, and release of the calculation rules.
 
-EMQ X Storm 将边缘节点的监控管理中心化，通过 Web 界面及管理监控 REST API 支撑以上需求。
-
-
+EMQ X Storm centralizes the monitoring management of edge nodes and supports the above requirements through the Web interface and the management monitoring REST API.
 
 
-**在线运营:** [https://storm.emqx.io](https://storm.emqx.io)
 
-**Github（暂未开源，用于 Issues 反馈、需求发布）:** [https://github.com/emqx/storm](https://github.com/emqx/storm)
+**Online operation:** [https://storm.emqx.io](https://storm.emqx.io)
+
+**Github（Not open source at present, used for issues feedback and requirement release）:** [https://github.com/emqx/storm](https://github.com/emqx/storm)
 
 
 

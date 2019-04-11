@@ -1,50 +1,46 @@
-# 数据同步管理
+# Data synchronization management
 
-数据同步用于配置数据同步规则，并将配置下发至边缘消息服务器。
+Data synchronization is used to configure data synchronization rules and issue the configuration to the edge message server.
 
-数据同步主页可以查看当前账户下数据同步列表：
+数据同步主页可以查看当前账户下数据同步列表： The data synchronization list under the current account can be viewed through data synchronization home page:
 
-- 总数：当前账户下创建的数据同步数量
-- 已下发数：已下发至 Edge 数据同步配置数
-
-
-
-仅在 Edge 在线时可以下发数据同步配置，下发状态包括如下几类：
-
-- 未下发：新建完毕没有下发成功过
-- 已下发：下发成功，Edge 端配置与 Storm 保存的配置版本一致
-- 有更新未下发：Storm 上更改过数据同步规则但未下发，两处版本不一致
-- 下发失败：网络、参数配置等造成的配置下发失败
+- Total: The number of data synchronizations created under the current account
+- Issued number: The number of data synchronization configurations that have been issued to the Edge
 
 
 
-下发成功将立即在 Edge 端启动并运行数据同步，运行状态如下：
+The data synchronization configuration can be issued only when the Edge is online. The issued state includes the following:
 
-- 未运行：数据同步从未运行过
-- 运行中：正常运行中
-- 暂停运行：手动/故障导致暂定运行，Edge 端相关数据同步在故障/故障恢复后均会主动刷新 Storm 端运行状态
+- Not issued: The new data synchronization configurations are not issued  after creation.
+- Issued: Issued successfully and the Edge configuration is the same as the configuration saved by Storm.
+- Updates not issued: Data synchronization rules have been changed on Storm but not issued, which  is inconsistent with that of Edge
+- Fail to issue. The configuration fails to issue due to network and parameter configuration.
 
+Data synchronization will start up and run  on the Edge side immediately after it was successfully issued . The running state is as follows:
 
+- Not running: Data synchronization has never been run
+- Running: Under normal operation
+- Pause running: Manual/fault leads to pause running, and Edge-related data synchronization will actively refresh  the running state of Storm after failure recovery.
 
 ![image-20190410190240339](../_assets/image-20190410190240339.png)
 
 
 
-## 下发面板
+## Issue panel
 
-点击表格操作列的**下发图标**弹出下发控制面板，可对所选数据同步配置进行下发。
+Click the **issue icon** in the table operation bar  to pop-up issue control panel to issue the selected data synchronization configuration.
 
-- 下发状态：显示当前运行状态(已下发/未下发/有更新未下发)与当前配置版本，每次更改配置后版本将自增 1
-- 下发按钮：
-  - 下发：初次下发到 Edge 端
-  - 再次下发：Edge 端该配置不存在则创建并启用配置，存在则更新并重启应用配置，需慎用
-  - 同步：Storm 上版本领先时可用，将最新配置更新到 Edge 端
+- Issue status: The current running status (issued/not issued/updates not issued) and the current configuration version are displayed. The version will increase by 1 each time when the configuration is changed.
 
-- 运行控制：
+- Issue button：
+  - Issue: Issue to the Edge for the first time.
 
-  - 启动：启用当前配置
-  - 停止：停用当前配置
+   - Issue again: If the configuration on the Edge side does not exist, create and start the configuration. If it exists, update and restart the configuration. Use it with caution.
+   - Sync: Available when the version on the Storm is leading, and update the latest configuration to the Edge side.
 
-  
+ - Running control:
+
+   - Start: Start current configuration
+   - Stop: Stop current configuration
 
 ![image-20190410191404515](../_assets/image-20190410191404515.png)

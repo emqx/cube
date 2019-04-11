@@ -1,9 +1,9 @@
-# 账户与登录
+# Account and login
 
 
 
-Storm 平台使用 [EMQ 账号](https://www.emqx.io/account) 进行认证登录，使用前需绑定邮箱注册。
+Storm platform uses  [EMQ account](https://www.emqx.io/account) for authentication login, , which requires binding mailbox for registration before using.
 
-登录状态下点击右上角注册邮箱即可查看当前账户信息、管理 REST API 密钥或执行退出登录操作。
+Under the login state, click the registered  mailbox at upper right corner to view the current account information, manage the REST API key or perform the logout operation.
 
-![image-20190410165634859](../_assets/image-20190410165634859.png)
+![image-20190410165634859](../_assets/image-20190410165634859.png) 

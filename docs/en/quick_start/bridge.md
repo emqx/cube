@@ -1,31 +1,31 @@
-# 数据同步
+# Data synchronization
 
-数据同步使用 MQTT 协议建立 Edge （本地）到其他中心节点（远程）的双向同步连接，中心节点可以是 私有部署的 EMQ X，公有云 AWS IoT、Azure IoT Hub 等 MQTT 协议接入点。
+During data synchronization,  MQTT protocol is used to establish bidirectional synchronous connection between Edge (local) and other central nodes (remote). The central nodes can be private deployed EMQ X, public cloud AWS IoT, Azure IoT Hub and other MQTT protocol access points.   
 
-数据同步使用转发（forward）与订阅主题（subscription）来实现双向同步：
+Data synchronization realized bidirectional synchronization by forward and subscription :
 
-- 转发：将本地一个或多个主题转发至远程对应的主题，实现 **本地 --> 远程** 同步
-- 订阅主题：订阅远程的一个或多个主题并将数据重新在本地发布
+- Forward: Forward one or more local topics to the corresponding remote topic, realizing  **local -> remote**  synchronization
+- Subscription: Subscribe to one or more remote topics and republish the data locally
 
-- 挂载点(mountpoint，可选)：配置转发主题统一加上的前缀
+-  Mountpoint (optional): Configure the prefix for forwarding topics uniformly
 
 
 
-### 数据同步规则示例
+###  Examples of data synchronization rule
 
-转发主题： `sersor1/#` ，`sensor2/#`
+Forward： `sersor1/#` ，`sensor2/#`
 
-订阅主题：`cmd/topic1`
+Subscription：`cmd/topic1`
 
-挂载点为 `emqx_edge/`
+Mountpoint: `emqx_edge/`
 
-则该规则应用如下：
+The rule is applied as follows:：
 
-- 本地 Edge 接收到的消息如果匹配主题 sersor1/#，sensor2/#，这些消息会被**加上挂载点**转发到远程节点上：
+- If the messages received by the local Edge matche the subject sersor1/#, sensor2/#, these messages will be forwarded to the remote node by **mountpoint:**
 
   ```bash
   sersor1/1 -> emqx_edge/sersor1/1
   ```
 
-- 远程服务器如果收到 cmd/topic1 主题消息，将在本地 Edge 相同主题发布消息。
+- If the remote server receives a cmd/topic1 topic message, it will publish a message with the same topic at the local Edge.
 

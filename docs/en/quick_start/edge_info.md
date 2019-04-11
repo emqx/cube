@@ -1,27 +1,29 @@
-# 边缘消息服务器管理
+# Edge message server management
 
-边缘消息服务器主页可以查看当前账户下边缘消息服务器列表：
+The  list of edge message servers under the current account  can be viewed through home page of edge message server:
 
-- 总数：当前账户下创建的 Edge 数量
-- 激活：连接过 Storm 平台的 Edge 数量
-- 在线：当前连接至 Storm 平台的 Edge 数量
-- 最后上线时间：上一次连接/断开连接时间
-- 操作：查看详情、编辑、删除 Edge 服务器
+- Total: Number of Edges created under the current account
+- Activation: Number of Edges connected to the Storm platform
+- Online: Number of Edges currently connected to the Storm platform
+- Last online time: Last connection/disconnection time
+- Operation: View details, edit, delete Edge server
 
 ![image-20190410165835268](../_assets/image-20190410165835268.png)
 
 
 
-点击列表中的边缘消息服务器名称或查看详情按钮即可进入详情页，详情页包含信息如下：
+Click on the Edge Message Server Name or View Details button in the list to enter the details page, which contains the following information:
 
-- Edge 接入 Storm 认证信息 Username 与 password，使用方式详见 [快速接入](./connect_strom.md)
-- 当前边缘消息服务器标签管理，用于批量管理归类 Edge
-- 数据同步：当前已创建的 [数据同步](./bridge.md) 配置
-- 运行状况，边缘消息服务器**在线**时显示实时信息，**离线**时显示最近一次刷新的状态：
-  - 消息服务器状态：Edge 系统信息，Erlang 虚拟机 CPU 内存信息及消息收发统计等
-  - 连接
-  - 会话
-  - 主题
-  - 会话
+- The authentication information of Username and password for the connection of Storm by Edge, please refer to [Quick connection](./connect_strom.md) for details.
+- Label Management of current Edge Message Server  for batch management of Edge Collation
+- Data Synchronization: [Data Synchronization](./bridge.md) configuration currently created
+
+- Data Synchronization: [Data Synchronization] (./bridge.md) configuration currently created
+- Running state:  displays real-time information when Edge Message Server is **online****, **and  shows the state of the most recent refresh when Edge Message Server is **offline**:
+   - Message server status: Edge system information, CPU, memory information and messaging statistics of Erlang virtual machine , and so on.
+   - Connection
+   - Session
+   - Topic
+   - Session
 
 ![image-20190410171300489](../_assets/image-20190410171300489.png)
