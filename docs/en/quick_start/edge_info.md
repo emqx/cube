@@ -21,9 +21,9 @@ Click on the Edge Message Server Name or View Details button in the list to ente
 - Data Synchronization: [Data Synchronization] (./bridge.md) configuration currently created
 - Running state:  displays real-time information when Edge Message Server is **online****, **and  shows the state of the most recent refresh when Edge Message Server is **offline**:
    - Message server status: Edge system information, CPU, memory information and messaging statistics of Erlang virtual machine , and so on.
-   - Connection
-   - Session
-   - Topic
-   - Session
+   - Connections
+   - Sessions
+   - Topics
+   - Subscriptions
 
 ![image-20190410171300489](../_assets/image-20190410171300489.png)
