@@ -43,4 +43,4 @@ Click the **issue icon** in the table operation bar  to pop-up issue control pan
    - Start: Start current configuration
    - Stop: Stop current configuration
 
-![image-20190410191404515](../_assets/image-20190410191404515.png)
+![image-20190418181212135](../_assets/image-20190418181212135.png)

@@ -10,8 +10,7 @@ EMQ X Storm (hereafter referred to as the Storm platform) is a management platfo
 
 EMQ X Storm centralizes the monitoring management of edge nodes and supports the above requirements through the Web interface and the management monitoring REST API.
 
-
-<img src="../_assets/storm_spec.png" alt="storm_spec" class="medium-size" style="max-width: 700px"/>
+<img src="../_assets/storm_spec.jpg" alt="storm_spec" class="medium-size" style="max-width: 700px"/>
 
 
 **Online operation:** [https://storm.emqx.io](https://storm.emqx.io)
