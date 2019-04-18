@@ -1,50 +1,83 @@
-# 快速接入
+# Quick Start
 
-EMQ X Edge 通过 [emqx-storm ](http://github.com/emqx/emqx-storm]) 插件连接至 Storm 平台并进行管理指令通信，启用前置条件如下：
+EMQ X Edge connects to Storm platform through  [emqx-storm](http://github.com/emqx/emqx-storm)  plug-in and communicates management instructions. The steps of enabling preparation and operation are as follows:
 
-- Edge 所处网络环境能建立与 [storm.emqx.io:1883](tcp://storm.emqx.io:1883) 的通信连接
+1. The emqx-edge version is greater than or equal to v3.1-rc.3 [click to download](https://www.emqx.io/downloads/emq/edge?OsType=Raspberry%20Pi#download)
 
-- emqx-edge 版本大于等于 v3.1-rc.2
+2. Edge's network environment can establish communication links with [storm.emqx.io:1883](storm.emqx.io:1883)
 
-- 注册 [EMQ 账号](https://www.emqx.io/account) 并在 [Storm](https://storm.emqx.io) 中新建边缘消息服务器
+3. Register [EMQ account](https://www.emqx.io/account?Tab=register) and create a new edge message server in [Storm](https://storm.emqx.io)
 
-- 配置 Edge emqx-storm 插件并启动 Edge
+4. Fill in the configuration in Storm on Edge and start the emqx-storm plug-in
 
-  
-
-> 注：不接入 Storm 不会影响 Edge 其他功能正常使用。
+> Note: It will not affect the normal use of other Edge features without the connection of storm.
 
 
-
-## 配置接入信息
-
-新建边缘消息服务器后，在边缘消息服务器**详情**中查看接入信息：
-
-![image-20190410161701887](../_assets/image-20190410161701887.png)
+## Registration and Login
 
 
 
-打开 Edge emqx-storm 插件配置文件 `etc/plugins/emqx_storm.conf`，修改项如下：
+[Storm Open Platform](https://storm.emqx.io) uses [EMQ Account](https://www.emqx.io/account?Tab=register) to authenticate login. If you have not registered with the EMQ official website, please go to the registration activation.
+
+<img src="../_assets/image-20190418174950438.png" class= "medium-size">
+
+
+
+
+
+
+## Create edge
+
+
+
+On the **Edge Message Server** page, click the New button to type in the server name and description to create the Edge Message Server.
+
+![image-20190418180127980](../_assets/image-20190418180127980.png)
+
+
+
+
+
+## Get the startup configuration
+
+
+
+When a new Edge Message Server is created, the information needed to access Storm can be obtained from the Edge Message Server **Details Page**:
+
+![image-20190418180541116](../_assets/image-20190418180541116.png)
+
+
+
+Open the Edge emqx-storm plug-in configuration file `etc/plugins/emqx_storm.conf`, with the following modifications:
 
 ```bash
-# Storm 接入地址，默认 storm.emqx.io:1883
+# Storm connection adress，default storm.emqx.io:1883
 storm.address = storm.emqx.io:1883
 
-# 认证用户名，使用详情中的 Username 信息
+# Authentication username, Username information in the usage details
 storm.username = 40e02ab0-5b68-11e9-ac3b-b1515a08538d
 
-# 认证密码，使用详情中的 Password 信息
+# Authentication password, password information in the usage details
 storm.password = b67aa008-c7f8-4b70-b06c-5cdba92f3ff7
 ```
 
 
 
-## 启动 Edge 消息服务器
-
-Edge 启动成功后将自动建立与 Storm 的连接，此时 Storm 中相关服务器状态将置为**在线**，点击切换相关 Tab 页即可获取对应运行指标。
-
-![image-20190410163401182](../_assets/image-20190410163401182.png)
+## Start and connect
 
 
 
-至此，你已成功将 Edge 接入 Storm。
+If the configuration is correct, Edge will automatically establish a connection with Storm after successful start-up. At this time, the state of the relevant server in Storm will be set to **online**. Click on the relevant Tab page to get the corresponding operation indicators.
+
+
+
+![image-20190418180815672](../_assets/image-20190418180815672.png)
+
+
+
+
+
+So far, you have successfully accessed Edge to Storm.
+
+
+
