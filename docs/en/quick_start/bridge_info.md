@@ -2,7 +2,7 @@
 
 Data synchronization is used to configure data synchronization rules and issue the configuration to the edge message server.
 
-数据同步主页可以查看当前账户下数据同步列表： The data synchronization list under the current account can be viewed through data synchronization home page:
+The data synchronization list under the current account can be viewed through data synchronization home page:
 
 - Total: The number of data synchronizations created under the current account
 - Issued number: The number of data synchronization configurations that have been issued to the Edge
