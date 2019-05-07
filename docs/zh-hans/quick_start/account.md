@@ -2,7 +2,7 @@
 
 
 
-Storm 平台使用 [EMQ 账号](https://www.emqx.io/account) 进行认证登录，使用前需绑定邮箱注册。
+Cube 平台使用 [EMQ 账号](https://www.emqx.io/account) 进行认证登录，使用前需绑定邮箱注册。
 
 登录状态下点击右上角注册邮箱即可查看当前账户信息、管理 REST API 密钥或执行退出登录操作。
 

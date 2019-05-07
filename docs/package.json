@@ -1,7 +1,7 @@
 {
-  "name": "emqx-storm-docs",
+  "name": "emqx-cube-docs",
   "version": "1.0.0",
-  "description": "EMQ X Storm Docs",
+  "description": "EMQ X Cube Docs",
   "main": "index.js",
   "author": "emqx team",
   "license": "Apache 2.0",

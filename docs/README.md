@@ -1,1 +1,1 @@
-# EMQ X Storm
+# EMQ X Cube

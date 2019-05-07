@@ -3,7 +3,7 @@
 
 * Production introduction
   * [EMQ X Edge Message Server](README.md)
-  * [Edge computing management platform Storm](introduction/storm.md)
+  * [Edge computing management platform Cube](introduction/cube.md)
   
   <!--* [Architecture and function](introduction/architecture.md)-->
   

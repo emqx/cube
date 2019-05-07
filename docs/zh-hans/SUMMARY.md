@@ -2,7 +2,7 @@
 
 * 产品简介
   * [EMQ X Edge 边缘消息服务器](README.md)
-  * [边缘计算管理平台 Storm](introduction/storm.md)
+  * [边缘计算管理平台 Cube](introduction/cube.md)
   
   <!--* [架构与功能](introduction/architecture.md)-->
   
