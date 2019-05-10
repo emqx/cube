@@ -8,7 +8,7 @@ The  list of edge message servers under the current account  can be viewed throu
 - Last online time: Last connection/disconnection time
 - Operation: View details, edit, delete Edge server
 
-![image-20190418181022614](../_assets/image-20190418181022614.png)
+![image-20190510105346663](../_images/image-20190510105346663.png)
 
 
 
@@ -26,5 +26,5 @@ Click on the Edge Message Server Name or View Details button in the list to ente
    - Topics
    - Subscriptions
 
-![image-20190418181131176](../_assets/image-20190418181131176.png)
+![image-20190510105408286](../_images/image-20190510105408286.png)
 

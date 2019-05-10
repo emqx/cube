@@ -6,7 +6,7 @@
   
   <!--* [架构与功能](introduction/architecture.md)-->
   
-* [快速接入](quick_start/connect_strom.md)  
+* [快速接入](quick_start/connect_cube.md)  
 * [账户与登录](quick_start/account.md)
 * [边缘消息服务器管理](quick_start/edge_info.md)
 * [数据同步](quick_start/bridge.md)

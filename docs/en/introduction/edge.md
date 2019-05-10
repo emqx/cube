@@ -6,7 +6,7 @@
 
 *EMQ X Edge* fully supports the MQTT V3.1/V3.1.1/V5.0 version protocol specification and supports industrial protocols such as MQTT-SN, TCP, WebSocket, CoAP, Stomp, and Modbus.
 
-![edge](../_assets/edge.png)
+![edge](../_images/edge.png)
 
 
 ## Installation

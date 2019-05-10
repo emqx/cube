@@ -7,7 +7,7 @@
 
 *EMQ X Edge* 完整支持 MQTT V3.1/V3.1.1/V5.0 版本协议规范，并支持 MQTT-SN 、TCP、WebSocket、CoAP、Stomp，以及 Modbus 等工业协议。
 
-![edge](../_assets/edge.png)
+![edge](../_images/edge.png)
 
 
 ## 安装使用

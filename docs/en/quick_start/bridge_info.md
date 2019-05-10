@@ -22,7 +22,7 @@ Data synchronization will start up and run  on the Edge side immediately after i
 - Running: Under normal operation
 - Pause running: Manual/fault leads to pause running, and Edge-related data synchronization will actively refresh  the running state of Cube after failure recovery.
 
-![image-20190410190240339](../_assets/image-20190410190240339.png)
+![image-20190510103700006](../_images/image-20190510103700006.png)
 
 
 
@@ -43,4 +43,4 @@ Click the **issue icon** in the table operation bar  to pop-up issue control pan
    - Start: Start current configuration
    - Stop: Stop current configuration
 
-![image-20190418181212135](../_assets/image-20190418181212135.png)
+![image-20190510103716817](../_images/image-20190510103716817.png)

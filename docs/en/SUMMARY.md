@@ -7,7 +7,7 @@
   
   <!--* [Architecture and function](introduction/architecture.md)-->
   
-* [Quick Start](quick_start/connect_strom.md)  
+* [Quick Start](quick_start/connect_cube.md)  
 * [Account and Login](quick_start/account.md)
 * [Edge Message Server Management](quick_start/edge_info.md)
 * [Data Synchronization](quick_start/bridge.md)

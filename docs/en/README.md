@@ -9,7 +9,7 @@ EMQ X Edge is fully open source and licensed under the Apache Version 2.0. EMQ X
 EMQ X Edge can be running at different kinds of resource constrained edge devices, such as Raspberry Pi, gateway and industrial servers. And as the bridge between the local terminals and the remote broker, EMQ X Edge provides local data processing and cloud synchronization which will automatically synchronize data with cloud service based on network status.
 
 
-<img src="./_assets/edge.png" class="medium-size"/>
+<img src="./_images/edge.png" class="medium-size"/>
 
 
 ## Installation

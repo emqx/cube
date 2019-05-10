@@ -19,7 +19,7 @@ EMQ X Edge connects to Cube platform through  [emqx-cube](http://github.com/emqx
 
 [Cube Open Platform](https://cube.emqx.io) uses [EMQ Account](https://www.emqx.io/account?Tab=register) to authenticate login. If you have not registered with the EMQ official website, please go to the registration activation.
 
-<img src="../_assets/image-20190418174950438.png" class= "medium-size">
+<img src="../_images/image-20190418174950438.png" class= "medium-size">
 
 
 
@@ -32,7 +32,7 @@ EMQ X Edge connects to Cube platform through  [emqx-cube](http://github.com/emqx
 
 On the **Edge Message Server** page, click the New button to type in the server name and description to create the Edge Message Server.
 
-![image-20190418180127980](../_assets/image-20190418180127980.png)
+![image-20190510103746318](../_images/image-20190510103746318.png)
 
 
 
@@ -44,7 +44,7 @@ On the **Edge Message Server** page, click the New button to type in the server 
 
 When a new Edge Message Server is created, the information needed to access Cube can be obtained from the Edge Message Server **Details Page**:
 
-![image-20190418180541116](../_assets/image-20190418180541116.png)
+![image-20190510103804827](../_images/image-20190510103804827.png)
 
 
 
@@ -71,7 +71,7 @@ If the configuration is correct, Edge will automatically establish a connection 
 
 
 
-![image-20190418180815672](../_assets/image-20190418180815672.png)
+![image-20190510103835369](../_images/image-20190510103835369.png)
 
 
 
