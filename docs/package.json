@@ -8,7 +8,7 @@
   "private": true,
   "scripts": {
     "docs": "gitbook install && gitbook serve",
-    "html": "gitbook install && gitbook build . _book && npm run clear",
+    "html": "gitbook install && gitbook build . _book && npm run clear && node _tools/favicon.js",
     "pdf": "gitbook install && gitbook pdf . _book.pdf",
     "mkdir": "node ./_tools/generate_summary.js",
     "lint": "node ./_tools/style_lint.js",
