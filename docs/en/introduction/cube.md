@@ -10,7 +10,7 @@ EMQ X Cube (hereafter referred to as the Cube platform) is a management platform
 
 EMQ X Cube centralizes the monitoring management of edge nodes and supports the above requirements through the Web interface and the management monitoring REST API.
 
-<img src="../_images/image-20190510103047261.png" alt="storm_spec" class="medium-size" style="max-width: 700px"/>
+<img src="../_images/image-20190510103047261.png" alt="cube_spec" class="medium-size" style="max-width: 700px"/>
 
 
 

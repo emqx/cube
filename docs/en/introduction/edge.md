@@ -11,6 +11,6 @@
 
 ## Installation
 
-Download link: [https://www.emqx.io/downloads/emq/edge](https://www.emqx.io/downloads/emq/edge)
+Download link: [https://www.emqx.io/downloads/edge?osType=Raspberry%20Pi](https://www.emqx.io/downloads/edge?osType=Raspberry%20Pi)
 
 Document link: [https://developer.emqx.io/docs/edge/v3/cn/](https://developer.emqx.io/docs/edge/v3/cn/)

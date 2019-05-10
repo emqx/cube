@@ -2,7 +2,7 @@
 
 EMQ X Edge connects to Cube platform through  [emqx-cube](http://github.com/emqx/emqx-cube)  plug-in and communicates management instructions. The steps of enabling preparation and operation are as follows:
 
-1. The emqx-edge version is greater than or equal to v3.1-rc.3 [click to download](https://www.emqx.io/downloads/emq/edge?OsType=Raspberry%20Pi#download)
+1. The emqx-edge version is greater than or equal to v3.1-rc.3 [click to download](https://www.emqx.io/downloads/edge?osType=Raspberry%20Pi)
 
 2. Edge's network environment can establish communication links with [cube.emqx.io:1883](cube.emqx.io:1883)
 
@@ -48,7 +48,7 @@ When a new Edge Message Server is created, the information needed to access Cube
 
 
 
-Open the Edge emqx-cube plug-in configuration file `etc/plugins/emqx_storm.conf`, with the following modifications:
+Open the Edge emqx-cube plug-in configuration file `etc/plugins/emqx_cube.conf`, with the following modifications:
 
 ```bash
 # Cube connection adress，default cube.emqx.io:1883

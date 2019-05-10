@@ -14,7 +14,7 @@
 
 点击列表中的边缘消息服务器名称或查看详情按钮即可进入详情页，详情页包含信息如下：
 
-- Edge 接入 Cube 接入信息 Address、Username 与 Password，使用方式详见 [快速接入](./connect_strom.md)
+- Edge 接入 Cube 接入信息 Address、Username 与 Password，使用方式详见 [快速接入](./connect_cube.md)
 - 当前边缘消息服务器标签管理，用于批量管理归类 Edge
 - 数据同步：当前已创建的 [数据同步](./bridge.md) 配置
 - 运行状况，边缘消息服务器**在线**时显示实时信息，**离线**时显示最近一次刷新的状态：

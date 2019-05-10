@@ -2,9 +2,9 @@
 
 ## 准备
 
-EMQ X Edge 通过 [emqx-cube ](http://github.com/emqx/emqx-cube]) 插件连接至 Cube 平台并进行管理指令通信，启用准备与操作步骤如下：
+EMQ X Edge 通过 [emqx-cube ](http://github.com/emqx/emqx-cube) 插件连接至 Cube 平台并进行管理指令通信，启用准备与操作步骤如下：
 
-1. emqx-edge 版本大于等于 v3.1-rc.3 [点击下载](https://www.emqx.io/downloads/emq/edge?osType=Raspberry%20Pi#download)
+1. emqx-edge 版本大于等于 v3.1-rc.3 [点击下载](https://www.emqx.io/downloads/edge?osType=Raspberry%20Pi)
 
 2. Edge 所处网络环境能建立与 [cube.emqx.io:1883](cube.emqx.io:1883) 的通信连接
 
