@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "gitbook-cli": "^2.3.2",
-    "pangu": "^3.3.0",
-    "glob": "^7.1.3"
+    "pangu": "^4.0.7",
+    "glob": "^7.1.4"
   }
 }
