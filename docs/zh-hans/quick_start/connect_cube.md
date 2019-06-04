@@ -58,7 +58,7 @@ EMQ X Edge 通过 [emqx-cube ](http://github.com/emqx/emqx-cube) 插件连接至
 
 
 
-打开 Edge emqx-cube 插件配置文件 `etc/plugins/emqx_storm.conf`，修改项如下：
+打开 Edge emqx-cube 插件配置文件 `etc/plugins/emqx_cube.conf`，修改项如下：
 
 ```bash
 # Cube 接入地址，默认 cube.emqx.io:1883

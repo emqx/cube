@@ -10,7 +10,7 @@ EMQ X Cube （以下简称 Cube 平台）是一个面向 EMQ X Edge 边缘消息
 
 EMQ X Cube 将边缘节点的监控管理中心化，通过 Web 界面及管理监控 REST API 支撑以上需求。
 
-<img src="../_images/image-20190510103306152.png" alt="storm_spec" class="medium-size" style="max-width: 700px"/>
+<img src="../_images/image-20190510103306152.png" alt="cube_spec" class="medium-size" style="max-width: 700px"/>
 
 
 
